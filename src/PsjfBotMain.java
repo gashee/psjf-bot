@@ -8,7 +8,7 @@ public class PsjfBotMain {
 
         bot.setVerbose(true);
         bot.connect("irc.chat.twitch.tv", 6667,
-                "oauth:fvpfsxglt1fahv64dk8f8uyis5fw4g");
+                "oauth:hehexd");
         bot.joinChannel("#thegashee");
     }
 
