@@ -1,0 +1,20 @@
+2018-05-29 23:22:04.497 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-05-29 23:22:04.505 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-05-29 23:22:04.505 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-05-29 23:22:04.506 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-05-29 23:22:04.506 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-05-29 23:22:04.506 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-05-29 23:22:04.506 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-05-29 23:22:04.507 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-05-29 23:22:04.507 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-05-29 23:22:04.507 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-05-29 23:22:04.507 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-05-29 23:22:04.508 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-05-29 23:22:04.509 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-05-29 23:22:04.512 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-05-29 23:22:05.485 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-05-29 23:22:05.520 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-05-29 23:22:06.064 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-05-29 23:22:13.963 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-05-29 23:22:14.060 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-05-29 23:23:06.957 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
