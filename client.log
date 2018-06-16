@@ -18,3 +18,558 @@
 2018-05-29 23:22:13.963 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
 2018-05-29 23:22:14.060 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
 2018-05-29 23:23:06.957 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-15 22:08:20.573 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-15 22:08:20.580 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-15 22:08:20.580 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-15 22:08:20.581 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-15 22:08:20.581 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-15 22:08:20.581 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-15 22:08:20.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-15 22:08:20.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-15 22:08:20.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-15 22:08:20.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-15 22:08:20.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-15 22:08:20.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-15 22:08:20.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-15 22:08:20.586 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-15 22:08:20.949 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-15 22:08:22.102 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-15 22:08:22.108 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-15 22:08:22.138 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-15 22:08:22.742 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:08:30.680 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-15 22:08:30.785 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-15 22:09:23.676 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-15 22:51:40.136 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-15 22:51:40.141 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-15 22:51:40.141 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-15 22:51:40.141 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-15 22:51:40.141 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-15 22:51:40.142 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-15 22:51:40.142 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-15 22:51:40.142 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-15 22:51:40.142 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-15 22:51:40.143 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-15 22:51:40.143 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-15 22:51:40.143 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-15 22:51:40.143 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-15 22:51:40.147 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-15 22:51:40.333 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-15 22:51:40.702 [main] ERROR m.p.t.endpoints.KrakenEndpoint - RestException: RestError(error=Bad Request, status=400, message=No client id specified)
+2018-06-15 22:51:40.707 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-15 22:51:40.707 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[], userId=null, userName=null, displayName=null)]
+2018-06-15 22:51:40.738 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-15 22:51:41.321 [main] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:51:41.321 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:51:41.433 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:51:51.434 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:51:52.004 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:51:52.005 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:51:52.116 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:02.118 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:02.680 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:02.681 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:02.797 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:06.324 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-15 22:52:06.328 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-15 22:52:06.329 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-15 22:52:06.329 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-15 22:52:06.329 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-15 22:52:06.329 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-15 22:52:06.330 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-15 22:52:06.330 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-15 22:52:06.330 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-15 22:52:06.330 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-15 22:52:06.331 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-15 22:52:06.331 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-15 22:52:06.331 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-15 22:52:06.333 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-15 22:52:06.510 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-15 22:52:06.873 [main] ERROR m.p.t.endpoints.KrakenEndpoint - RestException: RestError(error=Bad Request, status=400, message=No client id specified)
+2018-06-15 22:52:06.878 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-15 22:52:06.878 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[], userId=null, userName=null, displayName=null)]
+2018-06-15 22:52:06.909 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-15 22:52:07.493 [main] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:07.493 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:07.605 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:12.800 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:13.389 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:13.391 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:13.499 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:17.603 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:18.163 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:18.163 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:18.381 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:23.501 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:24.064 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:24.065 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:24.179 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:28.384 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:28.944 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:28.945 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:29.054 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:34.181 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:34.743 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:34.743 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:34.957 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:39.055 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:39.631 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:39.632 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:39.740 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:44.960 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:45.539 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:45.540 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:45.650 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:49.742 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:50.306 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:50.308 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:50.417 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:52:55.652 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:52:56.217 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:52:56.218 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:52:56.329 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:00.419 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:00.986 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:00.987 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:01.100 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:06.331 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:06.885 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:06.885 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:07.003 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:07.783 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-15 22:53:07.788 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-15 22:53:07.788 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-15 22:53:07.788 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-15 22:53:07.789 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-15 22:53:07.789 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-15 22:53:07.789 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-15 22:53:07.789 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-15 22:53:07.790 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-15 22:53:07.790 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-15 22:53:07.790 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-15 22:53:07.790 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-15 22:53:07.791 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-15 22:53:07.793 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-15 22:53:08.007 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-15 22:53:08.332 [main] ERROR m.p.t.endpoints.KrakenEndpoint - RestException: RestError(error=Bad Request, status=400, message=No client id specified)
+2018-06-15 22:53:08.336 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-15 22:53:08.337 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[], userId=null, userName=null, displayName=null)]
+2018-06-15 22:53:08.361 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-15 22:53:08.946 [main] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:08.946 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:09.059 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:11.103 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:11.663 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:11.664 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:11.774 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:17.005 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:17.587 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:17.588 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:17.700 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:19.059 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:19.622 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:19.622 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:19.833 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:21.778 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:22.335 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:22.335 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:22.451 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:27.703 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:28.265 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:28.266 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:28.375 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:29.835 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:30.389 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:30.390 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:30.498 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:32.453 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:33.011 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:33.012 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:33.121 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:38.378 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:38.940 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:38.941 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:39.148 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:40.499 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:41.078 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:41.079 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:41.188 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:43.123 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:43.687 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:43.688 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:43.797 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:49.149 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:49.722 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:49.722 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:49.834 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:51.190 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:51.760 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:51.761 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:51.870 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:53.799 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:53:54.360 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:53:54.361 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:53:54.470 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:53:59.837 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:00.405 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:00.406 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:00.526 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:01.872 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:02.438 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:02.439 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:02.553 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:04.472 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:05.031 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:05.032 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:05.242 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:10.529 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:11.092 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:11.093 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:11.206 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:12.555 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:13.144 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:13.145 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:13.353 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:15.244 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:15.803 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:15.805 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:15.913 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:21.209 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:21.779 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:21.780 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:21.888 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:23.355 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:23.912 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:23.912 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:24.019 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:25.915 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:26.471 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:26.473 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:26.582 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:31.891 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:32.451 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:32.451 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:32.563 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:34.021 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:34.587 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:34.588 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:34.697 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:36.584 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:37.146 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:37.147 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:37.256 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:42.566 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:43.119 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:43.120 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:43.231 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:44.700 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:45.292 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:45.293 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:45.406 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:47.262 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:47.831 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:47.832 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:47.945 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:53.234 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:53.819 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:53.820 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:53.928 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:55.407 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:55.962 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:55.962 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:56.073 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:54:57.947 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:54:58.507 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:54:58.507 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:54:58.618 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:03.932 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:04.490 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:04.491 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:04.602 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:06.076 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:06.634 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:06.635 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:06.840 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:08.617 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:09.186 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:09.187 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:09.305 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:14.603 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:15.164 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:15.165 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:15.273 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:16.843 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:17.421 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:17.422 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:17.531 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:19.308 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:19.872 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:19.873 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:19.985 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:25.276 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:25.857 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:25.858 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:25.968 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:27.534 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:28.089 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:28.090 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:28.301 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:29.986 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:30.542 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:30.542 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:30.652 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:35.970 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:36.535 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:36.536 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:36.646 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:38.303 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:38.870 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:38.870 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:39.001 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:40.654 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:41.211 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:41.212 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:41.324 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:46.648 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:47.213 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:47.214 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:47.326 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:49.004 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:49.579 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:49.579 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:49.692 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:51.326 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:51.887 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:51.888 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:51.999 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:57.328 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:55:57.906 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:55:57.907 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:55:58.014 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:55:59.692 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:56:00.251 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:56:00.252 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:56:00.361 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:56:02.001 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:56:02.560 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:56:02.561 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:56:02.669 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:56:08.019 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:56:08.579 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:56:08.580 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:56:08.688 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:56:10.363 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:56:12.672 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:56:13.223 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:56:13.224 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:56:13.336 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 22:56:18.690 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connection to Twitch IRC lost (WebSocket)! Retrying ...
+2018-06-15 22:56:19.247 [WritingThread] ERROR m.p.twitch4j.message.irc.TwitchChat - Connection to Twitch IRC failed: Please provide a User ID! - Retrying ...
+2018-06-15 22:56:19.248 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 22:56:19.362 [ReadingThread] ERROR m.p.t.message.irc.TwitchChat$1 - Invalid IRC Credentials. Login failed!
+2018-06-15 23:02:46.613 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-15 23:02:46.620 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-15 23:02:46.621 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-15 23:02:46.621 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-15 23:02:46.621 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-15 23:02:46.622 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-15 23:02:46.622 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-15 23:02:46.622 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-15 23:02:46.623 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-15 23:02:46.623 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-15 23:02:46.623 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-15 23:02:46.623 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-15 23:02:46.624 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-15 23:02:46.627 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-15 23:02:46.878 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-15 23:02:47.554 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-15 23:02:47.560 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-15 23:02:47.597 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-15 23:02:48.183 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-15 23:02:56.131 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-15 23:02:56.239 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-15 23:03:49.130 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-16 12:31:51.423 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-16 12:31:51.429 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-16 12:31:51.430 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-16 12:31:51.430 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-16 12:31:51.430 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-16 12:31:51.430 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-16 12:31:51.431 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-16 12:31:51.431 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-16 12:31:51.431 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-16 12:31:51.432 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-16 12:31:51.432 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-16 12:31:51.432 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-16 12:31:51.433 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-16 12:31:51.435 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-16 12:31:51.628 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-16 12:31:52.363 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-16 12:31:52.370 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-16 12:31:52.406 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-16 12:31:52.990 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-16 12:31:54.303 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-06-16 12:31:54.308 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-06-16 12:31:54.308 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-06-16 12:31:54.308 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-06-16 12:31:54.308 [main] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [thegashee].
+2018-06-16 12:32:00.929 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-16 12:32:01.035 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-16 12:32:53.924 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-16 12:35:53.576 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-16 12:35:53.581 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-16 12:35:53.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-16 12:35:53.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-16 12:35:53.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-16 12:35:53.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-16 12:35:53.582 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-16 12:35:53.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-16 12:35:53.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-16 12:35:53.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-16 12:35:53.583 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-16 12:35:53.584 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-16 12:35:53.584 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-16 12:35:53.586 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-16 12:35:53.787 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-16 12:35:54.404 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-16 12:35:54.411 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-16 12:35:54.436 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-16 12:35:55.023 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-16 12:35:56.123 [main] ERROR m.p.twitch4j.endpoints.UserEndpoint - RestException: RestError(error=Bad Request, status=400, message=The login parameter is invalid: "")
+2018-06-16 12:36:02.967 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-16 12:36:03.072 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-16 12:36:16.454 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-16 12:36:16.459 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-16 12:36:16.460 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-16 12:36:16.460 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-16 12:36:16.461 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-16 12:36:16.461 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-16 12:36:16.461 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-16 12:36:16.461 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-16 12:36:16.462 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-16 12:36:16.462 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-16 12:36:16.462 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-16 12:36:16.462 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-16 12:36:16.463 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-16 12:36:16.465 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-16 12:36:16.658 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-16 12:36:17.302 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-16 12:36:17.309 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-16 12:36:17.335 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-16 12:36:17.915 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-16 12:36:19.141 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-06-16 12:36:19.146 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-06-16 12:36:19.146 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-06-16 12:36:19.147 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-06-16 12:36:19.147 [main] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [thegashee].
+2018-06-16 12:36:25.843 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-16 12:36:25.948 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-16 12:36:55.962 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-16 12:37:18.839 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-16 12:37:24.444 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-16 12:37:24.450 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-16 12:37:24.451 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-16 12:37:24.451 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-16 12:37:24.451 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-16 12:37:24.451 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-16 12:37:24.451 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-16 12:37:24.452 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-16 12:37:24.452 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-16 12:37:24.452 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-16 12:37:24.453 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-16 12:37:24.453 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-16 12:37:24.453 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-16 12:37:24.455 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-16 12:37:24.632 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-16 12:37:25.295 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-16 12:37:25.300 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-16 12:37:25.329 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-16 12:37:25.921 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-16 12:37:27.185 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-06-16 12:37:27.190 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-06-16 12:37:27.190 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-06-16 12:37:27.191 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-06-16 12:37:27.191 [main] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [thegashee].
+2018-06-16 12:37:33.872 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-16 12:37:33.981 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-16 12:38:26.869 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-16 12:42:48.475 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-16 12:42:48.479 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-16 12:42:48.480 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-16 12:42:48.480 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-16 12:42:48.480 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-16 12:42:48.480 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-16 12:42:48.480 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-16 12:42:48.481 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-16 12:42:48.481 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-16 12:42:48.481 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-16 12:42:48.481 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-16 12:42:48.482 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-16 12:42:48.482 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-16 12:42:48.484 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-16 12:42:48.698 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-16 12:42:49.322 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-16 12:42:49.327 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-16 12:42:49.352 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-16 12:42:49.940 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-16 12:42:51.152 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-06-16 12:42:51.157 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-06-16 12:42:51.157 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-06-16 12:42:51.157 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-06-16 12:42:51.158 [main] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [thegashee].
+2018-06-16 12:42:57.863 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-16 12:42:57.969 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-16 12:43:50.859 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-16 12:51:20.636 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-16 12:51:20.642 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-16 12:51:20.642 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-16 12:51:20.643 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-16 12:51:20.643 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-16 12:51:20.643 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-16 12:51:20.643 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-16 12:51:20.643 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-16 12:51:20.644 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-16 12:51:20.644 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-16 12:51:20.644 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-16 12:51:20.644 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-16 12:51:20.644 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-16 12:51:20.647 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-16 12:51:20.822 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-16 12:51:21.565 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-16 12:51:21.570 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-16 12:51:21.594 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-16 12:51:22.177 [WritingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-16 12:51:23.491 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-06-16 12:51:23.496 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-06-16 12:51:23.496 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-06-16 12:51:23.497 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-06-16 12:51:23.497 [main] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [thegashee].
+2018-06-16 12:51:30.117 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-16 12:51:30.224 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
+2018-06-16 12:52:19.255 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener CommandHandler#processCommand
+2018-06-16 12:52:19.260 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientJoinEvent
+2018-06-16 12:52:19.261 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelSubscription
+2018-06-16 12:52:19.261 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannnelClientLeaveEvent
+2018-06-16 12:52:19.261 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onWhisper
+2018-06-16 12:52:19.262 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelCheer
+2018-06-16 12:52:19.262 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelMessage
+2018-06-16 12:52:19.262 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onClearChat
+2018-06-16 12:52:19.262 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOffEvent
+2018-06-16 12:52:19.263 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelModChange
+2018-06-16 12:52:19.263 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onChannelState
+2018-06-16 12:52:19.263 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onNoticeEvent
+2018-06-16 12:52:19.263 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener IRCEventListener#onHostOnEvent
+2018-06-16 12:52:19.265 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener OAuthTwitch#onTokenExpired
+2018-06-16 12:52:19.456 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Loaded 1 Credentials using the CredentialManager.
+2018-06-16 12:52:20.060 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Credentials with key [TWITCH-IRC] already present in CredentialManager.
+2018-06-16 12:52:20.064 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Added Credentials with key [TWITCH-IRC] and data [OAuthCredential(type=twitch, token=6ofq7eruad2c8nxkic3cyfj8licka5, tokenExpiresAt=null, refreshToken=null, oAuthScopes=[chat_login], userId=226987339, userName=gasheebot, displayName=gasheebot)]
+2018-06-16 12:52:20.090 [main] DEBUG m.p.twitch4j.auth.CredentialManager - Saved 1 Credentials using the CredentialManager.
+2018-06-16 12:52:20.668 [ReadingThread] INFO  m.p.t.message.irc.TwitchChat$1 - Connecting to Twitch IRC [wss://irc-ws.chat.twitch.tv:443]
+2018-06-16 12:52:21.821 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelBan
+2018-06-16 12:52:21.825 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelState
+2018-06-16 12:52:21.826 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelTimeout
+2018-06-16 12:52:21.826 [main] INFO  m.p.twitch4j.events.EventDispatcher - Registered method listener ChannelCache#onChannelModStatusChange
+2018-06-16 12:52:21.826 [main] DEBUG m.p.twitch4j.message.irc.TwitchChat - Joining Channel [thegashee].
+2018-06-16 12:52:23.113 [WritingThread] INFO  m.p.t.message.pubsub.TwitchPubSub$1 - Connection to Twitch PubSub Closed by Server [wss://pubsub-edge.twitch.tv:443]
+2018-06-16 12:52:28.602 [Timer-0] DEBUG m.p.t.message.pubsub.TwitchPubSub$2 - Send Ping to Twitch PubSub. (Keep-Connection-Alive)
+2018-06-16 12:52:28.711 [ReadingThread] DEBUG m.p.t.message.pubsub.TwitchPubSub$1 - Recieved PONG Response from Twitch PubSub.
