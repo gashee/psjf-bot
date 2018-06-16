@@ -1,2 +1,8 @@
 /bin/
 /target/
+
+# The client log file for personal testing of the bot
+client.log
+
+# The credential file containing all the IDs and passwords for personal bot testings
+*/creds.json
